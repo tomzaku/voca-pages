@@ -1,0 +1,1 @@
+function r(e){return e.replace(/[‘’ʼ]/g,"'").replace(/[‐-‒]/g,"-").replace(/\s+(?:[-–—]|:)\s.*$/,"").replace(/[:–—].*$/,"").replace(/^\s*(?:[-*+•>]|\d+[.)]|[a-z][.)](?=\s))\s*/i,"").replace(/[\\*_`~"#[\]]/g,"").replace(/\s+/g," ").replace(/^[\s.,!?'-]+|[\s.,!?'-]+$/g,"").trim().toLowerCase()}function a(e){return e.split(/[\n,;]+/).map(r).filter(Boolean)}export{a as s};
