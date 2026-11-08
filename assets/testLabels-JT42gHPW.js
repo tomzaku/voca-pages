@@ -1,1 +1,0 @@
-import{x as n,bL as i}from"./index-D7QcBIX4.js";function r(e,t){return e.dueAt===null||Date.parse(e.dueAt)>t}function a(e){return e.practiceNumber!=null?n("tests.practiceTitle",{n:e.practiceNumber}):e.title}function c(e){return i().find(t=>t.system&&t.id===e.collectionId)?.name??e.collectionName}export{c as a,r as i,a as t};
