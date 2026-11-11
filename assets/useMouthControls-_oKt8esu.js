@@ -1,1 +1,0 @@
-import{r as e}from"./index-FENli3hb.js";const o="voca.mouthView";function i(){const[r,s]=e.useState(()=>{try{return localStorage.getItem(o)==="3d"?"3d":"both"}catch{return"both"}}),[a,c]=e.useState(null);return{view:r,setView:t=>{s(t);try{localStorage.setItem(o,t)}catch{}},at:a,setAt:c}}export{i as u};
