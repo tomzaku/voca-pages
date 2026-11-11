@@ -1,0 +1,1 @@
+import{MINIMAL_PAIRS as o,pairsForSymbol as a}from"./ipa-BdYNming.js";function i(r){return`${r.a.word}-${r.b.word}`}function d(r){if(!r)return o;const t=a(r);return t.length>0?t:o}function f(r,t,e=Math.random){let n;do n=r[Math.floor(e()*r.length)];while(r.length>1&&i(n)===t);return{pair:n,correct:e()<.5?"a":"b",order:e()<.5?["a","b"]:["b","a"]}}export{d as a,i as p,f as r};
